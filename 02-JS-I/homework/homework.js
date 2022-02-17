@@ -154,7 +154,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return Marh.pow(num, exponent);
+  return Math.pow ( num , exponent);
 }
 
 function redondearNumero(num) {
@@ -210,7 +210,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return("hola" + " "+ nombre +"!" )
+  return("Hola" + " " + nombre +"!" )
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -250,14 +250,14 @@ function esVocal(letra){
   //Escribe tu código aquí
   if ( letra.length > 1)
   {
-    return"dato incorrecto";
+    return"Dato incorrecto";
   }
   else if ( letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u")
   {
     return "Es vocal";
   } 
    else  {
-return "dato incorreto";
+return "Dato incorrecto";
   }
 }
 
